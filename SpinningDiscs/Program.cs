@@ -6,9 +6,12 @@ namespace SpinningDiscs
     {
         static void Main(string[] args)
         {
-            // TODO: Declare and initialize a CD and a DVD object.
+            
+            DVD miniSeries = new DVD("Over the Garden Wall", 110, "animated mini series", "DVD", true, "How the gentle wind beckons through the leaves as autumn colors fall...");
+            CD blueOysterCult = new CD("Blue Oyster Cult", 39, "Fire of Unknown Origin", "Audio CD", true, 2, "Burnin' For You", "Home in the valley, home in the city, home isn't pretty, ain't no home for me...");
 
-            // TODO: Call each CD and DVD method to verify that they work as expected.
+            miniSeries.SpinDisc();
+            blueOysterCult.SpinDisc();
         }
     }
 }
